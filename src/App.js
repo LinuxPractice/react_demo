@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import './bootstrap.min.css';
 import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
