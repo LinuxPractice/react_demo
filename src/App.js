@@ -1,20 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './bootstrap.min.css';
-import './App.css';
-import './App.scss';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Header from './components/common/Header';
+import HeaderNavBar from './components/common/HeaderNavBar';
+import Footer from './components/common/Footer';
+import './css/SASS/App.scss';
+import TopLinks from './components/common/TopLinks';
+
+import data from './data/data.json';
+library.add(faSearch);
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React-demo</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div class="main container-fluid">
+      <TopLinks />
+      <Header />
+      <HeaderNavBar menus = {data} />
+      <div className="row">
+
+      </div>
+      <Footer />
       </div>
     );
   }

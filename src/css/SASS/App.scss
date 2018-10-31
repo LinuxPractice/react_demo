@@ -1,0 +1,101 @@
+@import '_boostrap_custom.scss';
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover{
+  background-color: $blue;
+  color:$white;
+
+}
+
+.navbar-toggler:active + .navbar-collapse{
+  display: block;
+}
+
+.search-box .form-control{
+  width:initial;
+}
+
+#search-box input, #search-box button, {
+  background:none;
+  margin-top:50px;
+  min-height:40px;
+}
+
+#cart{
+margin-top:50px;
+min-height:40px;
+
+}
+
+.searchbutton{
+  width:40px;
+  margin-left:-40px;
+  z-index:12563;
+}
+
+@media screen and (min-width: 768px){
+  .search-box{
+    float:right;
+  }
+}
+
+#logo {
+    margin: 15px 0 10px 0;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.logo{
+ max-width: 275px; 
+ max-height: 75px;
+  
+}
+
+
+#top {
+    padding: 2px 15px 1px 0;
+    margin: 0 auto;
+    min-height: 40px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+  
+}
+
+body{
+
+
+}
+#top .btn-link, #top-links li, #top-links a {
+    color: #888;
+    text-shadow: 0 1px 0 #FFF;
+}
+
+.list-inline-item i {padding-right:5px;}
+.main{
+  width:80%;
+  position:relative;
+}
+
+.nav-link:hover {
+ background-color: $red; //red
+}

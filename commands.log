@@ -65,3 +65,6 @@ doskey /history >> commands.log
 apm -v
 npm install fabric.js
 doskey /history >> commands.log
+npm install --save @fortawesome/fontawesome-svg-core 
+npm install --save @fortawesome/free-solid-svg-icons 
+npm install --save @fortawesome/react-fontawesome

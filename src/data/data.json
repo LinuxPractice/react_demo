@@ -1,0 +1,66 @@
+{
+	"headermenu": {
+		"links1": {
+			"menuName": "Accessories",
+			"subs": [{
+					"id": 1,
+					"name": "Toys",
+					"url": "/Toys"
+				},
+				{
+					"id": 2,
+					"name": "Gifts",
+					"url": "/Gifts"
+				},
+				{
+					"id": 3,
+					"name": "Accessories",
+					"url": "/Accessories"
+				},
+				{
+					"id": 4,
+					"name": "Housewares",
+					"url": "/Housewares"
+				}
+			]
+		},
+		"links2": {
+			"menuName": "Characters",
+			"subs": [{
+					"id": 1,
+					"name": "Pac-man",
+					"url": "/characters/pac-man"
+				},
+				{
+					"id": 2,
+					"name": "Ms Pac-man",
+					"url": "/characters/ms-pac-man"
+				},
+				{
+					"id": 3,
+					"name": "Godzilla",
+					"url": "/characters/godzilla-monsters"
+				},
+				{
+					"id": 4,
+					"name": "Care Bears",
+					"url": "/characters/care-bears"
+				}
+			]
+		},
+		"links3": {
+			"menuName": "Holidays",
+			"subs": [{
+					"id": 1,
+					"name": "Christmas",
+					"url": "/holidays/christmas"
+				},
+				{
+					"id": 2,
+					"name": "Halloweeen",
+					"url": "/holidays/halloween"
+				}
+			]
+		}
+	}
+}

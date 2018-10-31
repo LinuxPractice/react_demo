@@ -1,0 +1,72 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+
+
+
+$blue: #0b455b;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #B51A00;
+$orange: #e2492f;
+$yellow: #ffc107;
+$green: #228B22;
+$teal: #50b1c6;
+$cyan: #17a2b8;
+$white: #FFFFFF;
+$gray: #6c757d;
+$gray-dark: #343a40;
+
+
+$theme-colors : (
+'primary': $green,
+'secondary': $orange,
+'success': #228B22,
+'info': #17a2b8,
+'warning': #ffc107,
+'danger': #B51A00,
+'light': #f8f9fa,
+'dark': $blue
+);
+
+
+$navbar-color:                $blue;
+$navbar-hover-color:           rgba(255,255,255,.75);
+$navbar-active-color:          rgba(255,255,255,1);
+$navbar-disabled-color: $blue;
+
+
+
+
+$font-size-base: 0.875rem;
+  $font-family-sans-serif: 'Open Sans', sans-serif;
+  $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+$font-family-base: 'Open Sans', sans-serif;;
+
+$navbar-height: 40px;
+
+$body-bg: $white;
+$body-color: #666;
+
+
+$link-color:    $blue;
+
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+
+
+
+
+
+
+@import  "../../../node_modules/bootstrap/scss/bootstrap.scss";
